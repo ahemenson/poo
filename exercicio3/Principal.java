@@ -1,4 +1,3 @@
-package exercicio3;
 
 import java.util.Scanner;
 import java.util.List;
@@ -11,7 +10,7 @@ public class Principal {
 		
 		double valor = 0;		
 		
-		System.out.println("informe seus três pedidos");
+		System.out.println("informe seus trï¿½s pedidos");
 				
 		int numPedido=1;
 				
@@ -23,7 +22,7 @@ public class Principal {
 			System.out.println("quant produto");
 			String quant=input.next();
 			
-			System.out.println("valor unitário do produto");
+			System.out.println("valor unitï¿½rio do produto");
 			String valorUnitario=input.next();
 									
 			if(cod.equals("0")||quant.equals("0")||valorUnitario.equals("0")){
