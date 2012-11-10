@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 import java.util.List;
 
@@ -28,6 +27,8 @@ public class Principal {
 			if(cod.equals("0")||quant.equals("0")||valorUnitario.equals("0")){
 						
 				continua=false;
+				quant="0";
+				valorUnitario="0";
 			}
 							
 			ItemDePedido itens = new ItemDePedido(cod,Integer.parseInt(quant),Double.parseDouble(valorUnitario));
